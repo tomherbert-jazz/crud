@@ -8,8 +8,8 @@ import pandas as pd
 
 server = 'tcp:tomwinserver.database.windows.net'
 database = 'TomDB'
-username = 'therbert'
-password = 'Pebbles11.'
+username = 'xxxxxxxxxx'
+password = 'xxxxxxxxxxx'
 driver= '{ODBC Driver 17 for SQL Server}'
 
 mydb = pyodbc.connect('DRIVER=' + driver + ';SERVER=' + server + ';PORT=1433;DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
