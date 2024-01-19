@@ -7,15 +7,15 @@ import pandas as pd
  #   "Driver={ODBC Driver 17 for SQL Server};"
   #  f"Server=tcp:tomwinserver.database.windows.net;"
   #  f"Database=TomDB;"
-  #  f"Uid=therbert;Pwd=Pebbles11;"
+  #  f"Uid=therbert;Pwd=xxxxxxxxxx;"
 #)
 
 #connect to tomdb azure
 
 server = 'tcp:tomwinserver.database.windows.net'
 database = 'TomDB'
-username = 'therbert'
-password = 'Pebbles11.'
+username = 'xxxxxxxxx'
+password = 'xxxxxxxx'
 driver= '{ODBC Driver 17 for SQL Server}'
 
 conn = pyodbc.connect('DRIVER=' + driver + ';SERVER=' + server + ';PORT=1433;DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
